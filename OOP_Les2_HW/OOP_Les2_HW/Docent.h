@@ -1,13 +1,15 @@
 #pragma once
-//#include "Persoon.h"
-//#include <string>
+#include "Persoon.h"
+#include <string>
 
-//class Docent : public Persoon
-//{
-//public:
-	//Docent(int l, std::string n);
-	//~Docent();
+class Docent : public Persoon
+{
 
-	//int getAge();
-	//std::string getName();
-//};
+public:
+	Docent(int l, std::string n);
+	~Docent();
+
+private:
+	int leeftijd;
+	std::string naam;
+};

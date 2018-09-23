@@ -1,9 +1,7 @@
 #include "Student.h"
+#include <string>
 
-using namespace std;
-
-// Constructor
-Student::Student(int l, string n)
+Student::Student(int l, std::string n)
 {
 	leeftijd = l;
 	naam = n;
@@ -11,5 +9,4 @@ Student::Student(int l, string n)
 
 Student::~Student(void)
 {
-
 }

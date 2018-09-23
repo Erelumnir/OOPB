@@ -1,16 +1,12 @@
-//#include "Docent.h"
+#include "Docent.h"
+#include <string>
 
-//using namespace std;
+Docent::Docent(int l, std::string n)
+{
+	leeftijd = l;
+	naam = n;
+}
 
-// Constructor
-//Docent::Docent(int l, string n)
-//{
-	//leeftijd = l;
-	//naam = n;
-//}
-
-// Deconstructor
-//Docent::~Docent(void)
-//{
-
-//}
+Docent::~Docent(void)
+{
+}

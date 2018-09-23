@@ -1,10 +1,5 @@
-﻿  Student.cpp
-c:\users\randy\desktop\c++\les1\oop_les2_hw\oop_les2_hw\student.cpp(7): error C2512: 'Persoon': no appropriate default constructor available
-  c:\users\randy\desktop\c++\les1\oop_les2_hw\oop_les2_hw\persoon.h(5): note: see declaration of 'Persoon'
-  Persoon.cpp
-  Generating Code...
-c:\users\randy\desktop\c++\les1\oop_les2_hw\oop_les2_hw\persoon.cpp(21): error C4716: 'Persoon::getAge': must return a value
-c:\users\randy\desktop\c++\les1\oop_les2_hw\oop_les2_hw\persoon.cpp(25): error C4716: 'Persoon::getName': must return a value
-  Skipping... (no relevant changes detected)
+﻿  Main.cpp
   Docent.cpp
-  Main.cpp
+  Generating Code...
+  OOP_Les2_HW.vcxproj -> G:\GitHub\OOPB\OOP_Les2_HW\Debug\OOP_Les2_HW.exe
+  OOP_Les2_HW.vcxproj -> G:\GitHub\OOPB\OOP_Les2_HW\Debug\OOP_Les2_HW.pdb (Partial PDB)

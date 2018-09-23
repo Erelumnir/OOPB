@@ -1,11 +1,15 @@
 #include "Persoon.h"
 #include <string>
 
-using namespace std;
-
 // Constructor
-Persoon::Persoon() 
+Persoon::Persoon()
 {
+}
+
+Persoon::Persoon(int l, std::string n) 
+{
+	leeftijd = l;
+	naam = n;
 }
 
 // Deconstructor
@@ -16,10 +20,10 @@ Persoon::~Persoon(void)
 
 int Persoon::getAge()
 {
-	return 0;
+	return leeftijd;
 }
 
-string Persoon::getName() 
+std::string Persoon::getName() 
 {
-	return 0;
+	return naam;
 }

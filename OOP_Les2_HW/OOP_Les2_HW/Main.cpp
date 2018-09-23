@@ -3,26 +3,24 @@
 #include <string>
 #include <iostream>
 
-using namespace std;
-
 int main()
 {
+	char userInput;
+
 	// Declaring Objects
-	//Docent docent = Docent(33, "Geert");
-	Student student = Student(21, "Leslie");
+	Docent docent = Docent(33, "Geert");
+	Student student = Student(21, "Floris");
 
 	// Print docent leeftijd en naam
-	//docent.getAge();
-	//cout << endl;
-	//docent.getName();
-	//cout << endl;
+	std::cout << docent.getAge() << std::endl;
+	std::cout << docent.getName() << std::endl;
 
 	// Print student leeftijd en naam
-	student.getAge();
-	cout << endl;
-	student.getName();
-	cout << endl;
+	std::cout << student.getAge() << std::endl;
+	std::cout << student.getName() << std::endl;
 
+	std::cout << "Please Press something to test the program. . . " << std::endl;
+	std::cin >> userInput;
     return 0;
 }
 
