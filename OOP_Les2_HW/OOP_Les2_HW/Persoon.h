@@ -10,6 +10,7 @@ public:
 	virtual std::string getName();
 	~Persoon();
 
+private:
 	int leeftijd;
 	std::string naam;
 };
