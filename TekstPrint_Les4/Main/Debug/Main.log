@@ -1,0 +1,4 @@
+﻿  TekstInverter_Les4.cpp
+g:\github\oopb\tekstprint_les4\main\tekstinverter_les4.cpp(93): warning C4552: '<<': operator has no effect; expected operator with side-effect
+  Main.vcxproj -> G:\GitHub\OOPB\TekstPrint_Les4\Debug\TekstInverter.exe
+  Main.vcxproj -> G:\GitHub\OOPB\TekstPrint_Les4\Debug\TekstInverter.pdb (Partial PDB)
