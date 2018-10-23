@@ -9,7 +9,7 @@ int main()
 	std::ifstream in_stream;
 
 	in_stream.open(FILE);
-	
+
 	if (!in_stream)
 	{
 		std::cout << "Problem occured opening file." << FILE << std::endl;
