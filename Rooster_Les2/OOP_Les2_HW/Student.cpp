@@ -1,12 +1,17 @@
 #include "Student.h"
+#include "Persoon.h"
 #include <string>
 
-Student::Student(int l, std::string n)
+Student::Student(int leeftijd, std::string naam, int ec) : Persoon::Persoon(leeftijd, naam)
 {
-	leeftijd = l;
-	naam = n;
+	this->ec = ec;
 }
 
-Student::~Student(void)
+Student::~Student()
 {
+}
+
+int Student::getEC()
+{
+	return ec;
 }

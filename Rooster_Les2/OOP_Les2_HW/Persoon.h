@@ -4,13 +4,13 @@
 class Persoon
 {
 public:
-	Persoon();
-	Persoon(int l, std::string n);
-	virtual int getAge();
-	virtual std::string getName();
+	Persoon(int leeftijd, std::string naam);
+    int getAge();
+	std::string getName();
 	~Persoon();
 
 private:
+	// Persoon heeft beide een leeftijd en een Naam
 	int leeftijd;
 	std::string naam;
 };

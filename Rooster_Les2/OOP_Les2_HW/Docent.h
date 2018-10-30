@@ -6,10 +6,10 @@ class Docent : public Persoon
 {
 
 public:
-	Docent(int l, std::string n);
+	Docent(int leeftijd, std::string naam, float salary);
 	~Docent();
+	float getSalary();
 
 private:
-	int leeftijd;
-	std::string naam;
+	float salary;
 };

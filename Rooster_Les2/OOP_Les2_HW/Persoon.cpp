@@ -2,20 +2,14 @@
 #include <string>
 
 // Constructor
-Persoon::Persoon()
+Persoon::Persoon(int leeftijd, std::string naam) 
 {
+	this->leeftijd = leeftijd;
+	this->naam = naam;
 }
 
-Persoon::Persoon(int l, std::string n) 
+Persoon::~Persoon()
 {
-	leeftijd = l;
-	naam = n;
-}
-
-// Deconstructor
-Persoon::~Persoon(void)
-{
-
 }
 
 int Persoon::getAge()

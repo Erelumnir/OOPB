@@ -1,12 +1,16 @@
 #include "Docent.h"
 #include <string>
 
-Docent::Docent(int l, std::string n)
+Docent::Docent(int leeftijd, std::string naam, float salary) : Persoon(leeftijd, naam)
 {
-	leeftijd = l;
-	naam = n;
+	this->salary = salary;
 }
 
-Docent::~Docent(void)
+Docent::~Docent()
 {
+}
+
+float Docent::getSalary()
+{
+	return salary;
 }

@@ -5,10 +5,10 @@
 class Student : public Persoon
 {
 public:
-	Student(int l, std::string n);
+	Student(int l, std::string n, int ec);
 	~Student();
+	int getEC();
 
 private:
-	int leeftijd;
-	std::string naam;
+	int ec;
 };
